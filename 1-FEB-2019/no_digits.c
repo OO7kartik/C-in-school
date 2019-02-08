@@ -2,9 +2,10 @@
 
 int main(int argc, char const *argv[])
 {
-	int num,count=0;
+	long long int num;
+	int count=0;
 
-	scanf("%d" ,&num);
+	scanf("%lld" ,&num);
 
 	while(num)
 	{
